@@ -26,8 +26,7 @@ body {
     width: 50%;
     flex-direction: column;
     align-items: end;
-    padding-top: 194px;
-    padding-right: 85px;
+    padding: 194px 85px 0 191px;
 }
 
 .main-image {

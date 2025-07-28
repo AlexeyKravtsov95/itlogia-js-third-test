@@ -131,6 +131,11 @@ window.onload = function () {
                 return;
             }
 
+            if (passwordInput.value.length < 8 ) {
+                alert("Длина пароля должна быть не менее 8 символов");
+                return;
+            }
+
             alert(`Добро пожаловать, ${usernameInput.value}!`);
         }
     }

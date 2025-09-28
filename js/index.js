@@ -139,4 +139,6 @@ window.onload = function () {
             alert(`Добро пожаловать, ${usernameInput.value}!`);
         }
     }
+
+    console.log("test");
 }

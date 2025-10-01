@@ -10,3 +10,9 @@
 
 ### Git reset
 ![git reset](screenshots/4.png)
+
+### Simulation team work
+
+![first](screenshots/first.png)
+---------------------------------
+![second](screenshots/second.png)

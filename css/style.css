@@ -174,3 +174,9 @@ label {
 .popup-close:hover {
     background-color: #b72836;
 }
+
+.error {
+    display: none;
+    color: red;
+    font-size: 12px;
+}

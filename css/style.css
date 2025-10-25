@@ -67,6 +67,7 @@ label {
     font-size: 16px;
     line-height: 169%;
     color: #c6c6c4;
+    position: relative;
 }
 
 .base-input {
@@ -108,7 +109,7 @@ label {
     font-size: 20px;
     line-height: 135%;
     color: #fff;
-    background: #2b4bff;
+    background: #dd3142;
     border-radius: 40px;
     width: 210px;
     border: none;
@@ -178,5 +179,17 @@ label {
 .error {
     display: none;
     color: red;
-    font-size: 12px;
+    font-size: 10px;
+    position: absolute;
+    top: 65%;
+}
+
+.error-label input {
+    border-bottom: 1px solid red;
+}
+
+.main-form.welcome {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
